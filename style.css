@@ -11,8 +11,34 @@
   /* ***neutral colors*** */
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
+  --white: hsl(0, 0%, 100%);
 
   /* ***fonts*** */
   --headings-font: "Raleway", sans-serif;
   --body-font: "Open Sans", sans-serif;
+}
+
+/* *****general styles***** */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-color: var(--white);
+  color: var(--very-dark-blue);
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 400;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: var(--headings-font);
+}
+
+img {
+  max-width: 100%;
 }
