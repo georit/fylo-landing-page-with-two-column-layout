@@ -345,7 +345,7 @@ footer .social-media-link-container:last-child {
 }
 
 /* *****media queries***** */
-@media screen and (min-width: 1430px) {
+@media screen and (min-width: 930px) {
   /* *****general styles***** */
   body {
     max-width: 1980px;
@@ -363,7 +363,7 @@ footer .social-media-link-container:last-child {
   }
 
   input[type="submit"] {
-    transition: all 0.3s;
+    transition: all 0.3s ease;
   }
 
   input[type="submit"]:hover {
@@ -423,11 +423,11 @@ footer .social-media-link-container:last-child {
 
   form.hero-form input[type="email"] {
     width: 60%;
+    margin-right: 1rem;
   }
 
   form.hero-form input[type="submit"] {
     padding: 0.9rem 3rem;
-    margin-left: 1rem;
   }
 
   /* ***stay productive*** */
